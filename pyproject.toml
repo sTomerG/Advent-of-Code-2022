@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "aoc2022"
+version = "0.1.0"
+description = "\"Solutions to Advent of Code 2022\""
+authors = ["Tomer Gabay <tomergabay001@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
