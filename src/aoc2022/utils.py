@@ -14,7 +14,7 @@ def timeit(n: int = 10):
             exec_times.append(time.time() - start_time)
         mean = fmean(exec_times)
         rel_stdev = round((stdev(exec_times) / mean) * 100,2)
-        print(f"'{func.__name__}()' took on average {mean} seconds with a stdev of {rel_stdev}%. ({n} runs).")
+        print(f"'{func.__name__}()' took on average {mean} seconds with a stdev of {rel_stdev}%. ({n} runs)")
         return result
     return wrapper
   return decorator
